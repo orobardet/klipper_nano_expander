@@ -1,0 +1,17 @@
+Ref;Qty;Value;Description;Footprint;LCSC Ref
+A1;1;;Arduino Nano v3.x;;
+A1-a, A1-b;2;;15 pins female dupont header + 15 mins mal dupont header;;
+C1, C8;2;10uF;Unpolarized ceramic capacitor;0805;C17024
+C2, C3;2;0.1uF;Unpolarized ceramic capacitor;0805;C49678
+C4, C5, C6, C7;4;4.7uF;Unpolarized ceramic capacitor;0805;C1779
+D3;1;Any color;LED;0805;C84256
+F1;1;Fuse;Mini fuse holder + 2A or 5A mini fuse;3544-2_FuseHolder;
+Q1, Q2, Q3;3;IRLML6344TRPBF;MOSFET N-CH 30V 5A SOT23;SOT-23;C20917
+R1;1;1K;Resistor;0805;C17513
+R3, R6, R9, R15;4;100;Resistor;0805;C17408
+R4, R7, R10;3;10K;Resistor;0805;C17414
+R11, R12, R13, R14;4;4.7K;Resistor;0805;C17673
+J1;1;;Screw terminal 2 pins P5.08mm;P5.08mm;
+FAN0, FAN1, FAN2;3;;JST 2 pins P2.54mm;P2.54;
+T0, T1, T2, T3;4;;JST 2 pins P2.54mm;P2.54;
+Neopixel;1;;JST 3 pins P2.54mm;P2.54;

@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Developpement\Electronique\Kicad\Klipper nano expander\Klipper nano expander.kicad_sch</source>
+    <date>19/06/2022 15:23:19</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Klipper Nano Expander</title>
+        <company>Olivier Robardet</company>
+        <rev>1.0</rev>
+        <date>2022-06-19</date>
+        <source>Klipper nano expander.kicad_sch</source>
+        <comment number="1" value="&quot;Shield&quot; for Arduino Nano boards, designed to be used as a Klipper MCU board"/>
+        <comment number="2" value="Inspired by STM32-Klipper-Expander by Voron Design Group"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano_WithMountingHoles</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14fc535c-cb89-48aa-90fe-76e1fd47f505</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17024</field>
+        <field name="MPN">CL21A106KPFNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C17024"/>
+      <property name="MPN" value="CL21A106KPFNNNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15012e85-aab0-468d-a2be-0935e532a2c4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+        <field name="MPN">CC0805KRX7R9BB104</field>
+        <field name="SKU">302010165</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="MPN" value="CC0805KRX7R9BB104"/>
+      <property name="SKU" value="302010165"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d303debf-ae26-4fed-be0a-68bc083295b9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+        <field name="MPN">CC0805KRX7R9BB104</field>
+        <field name="SKU">302010165</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="MPN" value="CC0805KRX7R9BB104"/>
+      <property name="SKU" value="302010165"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48320071-ecc0-4087-826d-625b82767adc</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="MPN">CC0805KKX5R8BB475</field>
+        <field name="SKU">302010146</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1779"/>
+      <property name="MPN" value="CC0805KKX5R8BB475"/>
+      <property name="SKU" value="302010146"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2508fd19-5bf8-43a3-80e9-f9bbc5750434</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="MPN">CC0805KKX5R8BB475</field>
+        <field name="SKU">302010146</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1779"/>
+      <property name="MPN" value="CC0805KKX5R8BB475"/>
+      <property name="SKU" value="302010146"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9af4de66-a4db-411a-a99c-c67ccd06528a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="MPN">CC0805KKX5R8BB475</field>
+        <field name="SKU">302010146</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1779"/>
+      <property name="MPN" value="CC0805KKX5R8BB475"/>
+      <property name="SKU" value="302010146"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>723472f1-eeb6-42eb-a425-1ae0c77bbe76</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="MPN">CC0805KKX5R8BB475</field>
+        <field name="SKU">302010146</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1779"/>
+      <property name="MPN" value="CC0805KKX5R8BB475"/>
+      <property name="SKU" value="302010146"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd9076c1-d27f-40f6-82de-ecddc90a37a7</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17024</field>
+        <field name="MPN">CL21A106KPFNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C17024"/>
+      <property name="MPN" value="CL21A106KPFNNNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58071b6c-2f27-4aea-89d8-aebc6df24768</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C84256</field>
+        <field name="MPN">17-215SURC/S530-A2/TR8 </field>
+        <field name="SKU">304090046</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="MPN" value="17-215SURC/S530-A2/TR8 "/>
+      <property name="SKU" value="304090046"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5bbd2c8-c6fe-462b-b2b6-f8f78b7f0167</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>local:3544-2_FuseHolder</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b128abf-9d8d-4499-9283-f29f38c8c0b1</tstamps>
+    </comp>
+    <comp ref="FAN0">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee8dfc73-cdf0-49f7-ae8c-1683774b2f83</tstamps>
+    </comp>
+    <comp ref="FAN1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0d3f359-2bed-4f36-a04a-39880f13e3bc</tstamps>
+    </comp>
+    <comp ref="FAN2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a184618-231d-427e-be6d-bceaf220a019</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f8029e2-a844-4ed9-9852-f109b66d300c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09a32a2d-0782-4088-a13b-40c7310c7aa7</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9225e700-15e7-48c7-8eae-e4edfcbaf727</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20520408-c560-4105-90ef-3a38641381ab</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>+5Vin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14536782-593c-4ad4-8783-d6ffcfe98424</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e52a68ed-e9d6-44f7-8d75-359170e454f2</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6344TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Alternate PN#">AO3400A</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="LCSC">C20917</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="local" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <property name="Alternate PN#" value="AO3400A"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="DK_Datasheet_Link" value="https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168"/>
+      <property name="Description" value="MOSFET N-CH 30V 5A SOT23"/>
+      <property name="Digi-Key_PN" value="IRLML6344TRPBFCT-ND"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="MPN" value="IRLML6344TRPBF"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81bba82b-f557-496f-9837-541c9cbfb433</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLML6344TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Alternate PN#">AO3400A</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="LCSC">C20917</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="local" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <property name="Alternate PN#" value="AO3400A"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="DK_Datasheet_Link" value="https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168"/>
+      <property name="Description" value="MOSFET N-CH 30V 5A SOT23"/>
+      <property name="Digi-Key_PN" value="IRLML6344TRPBFCT-ND"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="MPN" value="IRLML6344TRPBF"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a125a0da-dcfe-42b0-8c36-89c2256876ce</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLML6344TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</datasheet>
+      <fields>
+        <field name="Alternate PN#">AO3400A</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="LCSC">C20917</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="local" part="IRLML6344TRPBF" description="MOSFET N-CH 30V 5A SOT23"/>
+      <property name="Alternate PN#" value="AO3400A"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="DK_Datasheet_Link" value="https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168"/>
+      <property name="Description" value="MOSFET N-CH 30V 5A SOT23"/>
+      <property name="Digi-Key_PN" value="IRLML6344TRPBFCT-ND"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="MPN" value="IRLML6344TRPBF"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eeb4a4c-08c2-4dae-b138-93ec5720bff0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17513</field>
+        <field name="MPN">RC0805JR-071KL</field>
+        <field name="SKU">301010311</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="MPN" value="RC0805JR-071KL"/>
+      <property name="SKU" value="301010311"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d1b55e0-8810-44ff-87f2-72e9264e0d81</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+        <field name="MPN">RC0805JR-07100RL</field>
+        <field name="SKU">301010319</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="MPN" value="RC0805JR-07100RL"/>
+      <property name="SKU" value="301010319"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55400f44-06a8-4d58-ae7a-eb40e9f335d4</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="SKU">301010361</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="MPN" value="RC0805JR-0710KL"/>
+      <property name="SKU" value="301010361"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4c2f7c5-6e5f-4b64-90a7-9d558d80282b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+        <field name="MPN">RC0805JR-07100RL</field>
+        <field name="SKU">301010319</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="MPN" value="RC0805JR-07100RL"/>
+      <property name="SKU" value="301010319"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e13dbbd4-922d-49a3-9c42-e1bf02fa67c2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="SKU">301010361</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="MPN" value="RC0805JR-0710KL"/>
+      <property name="SKU" value="301010361"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23cb54a7-22c7-4454-8ace-652429e4fea6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+        <field name="MPN">RC0805JR-07100RL</field>
+        <field name="SKU">301010319</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="MPN" value="RC0805JR-07100RL"/>
+      <property name="SKU" value="301010319"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>568c9702-23ad-4942-9f01-e0711bd344d1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="SKU">301010361</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="MPN" value="RC0805JR-0710KL"/>
+      <property name="SKU" value="301010361"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c7bc13f-3253-4516-b73f-663789f0af09</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17673"/>
+      <property name="MPN" value="RC0805JR-074K7L"/>
+      <property name="SKU" value="301010306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f574f36-7c45-4fc4-97d3-5d30f63c99d7</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17673"/>
+      <property name="MPN" value="RC0805JR-074K7L"/>
+      <property name="SKU" value="301010306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cad791b-9038-4322-ac4e-000b9699f10a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17673"/>
+      <property name="MPN" value="RC0805JR-074K7L"/>
+      <property name="SKU" value="301010306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c568a17e-d700-4bcb-ac86-36cc0c21ddb1</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17673</field>
+        <field name="MPN">RC0805JR-074K7L</field>
+        <field name="SKU">301010306</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17673"/>
+      <property name="MPN" value="RC0805JR-074K7L"/>
+      <property name="SKU" value="301010306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06a03427-2dd3-4a82-94d5-3f530594fad5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+        <field name="MPN">RC0805JR-07100RL</field>
+        <field name="SKU">301010319</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="MPN" value="RC0805JR-07100RL"/>
+      <property name="SKU" value="301010319"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>297bafaa-3d6f-432d-ae82-e7ee59d63a11</tstamps>
+    </comp>
+    <comp ref="T0">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>250ea331-2c0d-4ae8-b867-fb2d7c07840f</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>744b4d8f-f27a-401f-94ac-7aa09acf4fd3</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1395f05-905f-404b-82b0-f088ce7d906a</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Klipper nano expander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc2d7ad3-fa68-46dc-bc4b-01fe3a5c935d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="local" part="IRLML6344TRPBF">
+      <description>MOSFET N-CH 30V 5A SOT23</description>
+      <docs>https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML6344TRPBF</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="Digi-Key_PN">IRLML6344TRPBFCT-ND</field>
+        <field name="MPN">IRLML6344TRPBF</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168</field>
+        <field name="Description">MOSFET N-CH 30V 5A SOT23</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="local">
+      <uri>E:\Developpement\Electronique\Kicad\Klipper nano expander/local.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="FAN0" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="FAN1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="FAN2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="CS">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="T0" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="T3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="MISO">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="6" name="MOSI">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="7" name="NEOPIXEL">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(FAN0-Pad1)">
+      <node ref="FAN0" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(FAN1-Pad1)">
+      <node ref="FAN1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(FAN2-Pad1)">
+      <node ref="FAN2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="PWM0">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="PWM1">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="PWM2">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="SCK">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="SCL">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="SDA">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="TH0">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="T0" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="24" name="TH1">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="TH2">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="26" name="TH3">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="T3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A1-Pad7)">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(A1-Pad11)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
