@@ -53,7 +53,7 @@ You'll also have to source and solder all the other non-SMD components:
 
 ### BOM
 
-- [Interactive BOM](interactive_bom/klipper_nano_expander_interactive_bom.html)
+- [Interactive BOM](http://htmlpreview.github.io/?https://github.com/orobardet/klipper_nano_expander/blob/master/interactive_bom/klipper_nano_expander_interactive_bom.html)
 - [CSV](Klipper_nano_expander-BOM.csv) or [XLSX](Klipper_nano_expander-BOM.xlsx) BOM
 
 Ref                | Qty | Value          | Description                                              | Soldering     | Footprint         | LCSC Ref
