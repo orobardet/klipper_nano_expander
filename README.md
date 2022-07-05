@@ -7,7 +7,7 @@ An Arduino Nano Shield to use with Klipper 3D printer firmware, as a auxiliary M
 ## Features
 
 - Only require an Arduino Nano
-- +5V optionnal external power supply with fuse
+- +5V optional external power supply with fuse
   - Connected to the Arduino Nano 5V
   - Only required if you need more than 500mA power, else the Nano power supply should be enough
 - x4 temperature sensors (or any analog device as input)
@@ -49,7 +49,7 @@ You'll also have to source and solder all the other non-SMD components:
 - x1 [Keystone 3544-2 mini fuse holder](https://www.digikey.com/en/products/detail/keystone-electronics/3544-2/316029)
 - x7 2 pins JST connector (FANx and THx headers)
 - x1 3 pins JST connector (Neopixel headers)
-- x1 screw terminal pitch 2.54 for power in
+- x1 screw terminal pitch 5.08mm for power in
 
 ### BOM
 
