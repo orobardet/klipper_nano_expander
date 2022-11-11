@@ -94,7 +94,14 @@ FANx header are mosfet PWM output, driving the ground:
 
 ### Software configuration
 
-Once built and connected to your Klipper host, use the provided [Klipper config file](config/nano_klipper_expander.cfg).
+Once built and connected to your Klipper host, use the provided [Klipper config file](config/nano_klipper_expander.cfg).  
+
+You need at least to set the `serial` path in the `[mcu ...]` of the provided klipper configuration file.  
+To find the serial of your Arduino Nano:
+- BEFORE connecting the Nano with USB on the Raspberry Pi, connect to the Pi using SSH and run the command `ls /dev/serial/by-id/`. Note the result.
+- Connect the Nano with USB on the Pi, wait a few seconds for the Pi to detect the USB device, and re-run the same command as before.
+- A new "file" should be there, looking like `usb-1a86_USB2.0-Serial-if00-port0`: it represents your Arduino Nano
+- Change the `serial` setting value in the Klipper configuration using the full path to the serial file. e.g.: `serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0`
 
 Here is the pin mapping for reference:
 - TH0: PC0
@@ -106,9 +113,37 @@ Here is the pin mapping for reference:
 - FAN2: PD3
 - Neopixel Data: PD6
 
-### Mounting
+The configuration file must be included in some way into the main `printer.cfg` config filr of Klipper.
 
-![](pictures/klipper_nano_expander_real_full.jpg)
+### Flashing firmware
+
+To flash the firmware, you do not need to have the configuration file ready, but you need:
+- The Nano connected to the Raspberry Pi
+- The path of the serial representing the Nano on the Pi (see previous section)
+- Klipper installed on the Pi
+- AVR compilation package installed on the Rapsberry Pi hosting Klipper: `sudo apt install gcc-avr avr-libc avrdude binutils-avr`
+
+To flash the Nano with Klipper:
+
+- Connect to the Pi using SSH.
+- Create a `klipper_config` directory in you home directory, if it not exists already: `mkdir -p ~/klipper_config`.
+- Go the the directory containing klipper (usually: `cd ~/klipper`).
+- Run `make clean KCONFIG_CONFIG=~/klipper_config/config.arduinonano`.
+- Run `make menuconfig KCONFIG_CONFIG=~/klipper_config/config.arduinonano` and configure as followed, and then save'n'quit:  
+  - _Enable extra low-level configuration options_: NOT checked
+  - _Micro-controller Architecture_: `Atmega AVR`
+  - _Processor model_: `atmega328p`   
+![](pictures/flash_nano_menuconfig.png)
+- Run `make KCONFIG_CONFIG=~/klipper_config/config.arduinonano` to build the firmware.  
+  **Note:** If the firmware compilation fails with errors like `'.data' is not within region 'data'`, you may sufffer a known bug with AVR toolchain on Debian Bullseye (check your linux distribution codename with `lsb_release -a`). If so, you can try [a workaround describe here to install a previous and non-buggy AVR toolchain](https://github.com/Klipper3d/klipper/issues/4938#issuecomment-1094246978). Once installed, re-roll the current procedure from the `make clean` step (a reboot of the Pi may be usefull between new toolchain installation and the retry).
+- **Stop Klipper** if it's running (usually: `sudo systemctl stop klipper`)
+- Run `make flash KCONFIG_CONFIG=~/klipper_config/config.arduinonano FLASH_DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0`, _**replacing the `FLASH_DEVICE=` value with the full path of you Nano on your Pi!**_ This will flash the firmware to the Arduino Nano.
+- Start Klipper (usually: `sudo systemctl start klipper`)
+
+If no error occurs, Klipper's firmware is now loaded into the Arduino Nano.  
+You can now configure Klipper to use the Nano Expander.
+
+### Mounting
 
 x2 3D printable mounts are provided (STL files):
 - [without mounting holes](STL/nano_expander_mount.stl): lower footprint, but require some tape (like VHB tape) to secure the mount on a flat surface.
