@@ -151,7 +151,14 @@ x2 3D printable mounts are provided (STL files):
 
 Both mounts require x4 M2x3mm screw to secure the board to the mount.
 
+## Compatibility
+
+Aside from Arduino Nano and its clone, this board _may_ be compatible with other MCU boards using the same form factor than the Arduino Nano, and a compatible pinout.
+
+- [Cytron Maker Nano RP2040](config/rp2040_klipper_expander.cfg): flashing the firmware is a bit different, as it is based on the Raspberry Pi RP2040 MCU rather than an ATMega MCU. 
+
 ## Credit
 
 Inspired by [STM32-Klipper-Expander](https://github.com/VoronDesign/Voron-Hardware/tree/master/Klipper_Expander) by Voron Design Team.  
-Temperature sensors and FAN output of Klipper Nano Expander are a copy of those of STM32-Klipper-Expander.
+Temperature sensors and FAN output of Klipper Nano Expander are a copy of those of STM32-Klipper-Expander.  
+The Cytron Maker Nano RP2040 config is a contribution of **tehmaze** (#2).
